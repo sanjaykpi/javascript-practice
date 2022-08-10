@@ -1,0 +1,11 @@
+    //  increment
+let a;
+for(a=1; a<5; a++){
+    console.log(a)
+}
+
+//    decrement
+let b;
+for(b=10; b>0; b--){
+    console.log(b)
+}
