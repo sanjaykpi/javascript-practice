@@ -9,9 +9,9 @@
             console.log(a);
         }
     }
-    else{
-        if(b>c)
+    else  if(b>c){
         console.log(b);
-        else
+    }
+        else{
         console.log(c);
     }
