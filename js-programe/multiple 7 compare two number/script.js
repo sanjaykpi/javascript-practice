@@ -22,5 +22,5 @@ if(b%7==0){
     console.log("b is multiple of 7");
 }
 else{
-    console.log("b is not multiple of 7");
+    console.log("b is not multiple of 7"); 
 }
