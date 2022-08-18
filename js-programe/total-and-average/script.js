@@ -9,5 +9,5 @@ a[i]=parseInt(prompt('user value'));
 }
 avr=j/s
 console.log(a);
-console.log(sum);
+console.log(j);
 console.log(avr);
