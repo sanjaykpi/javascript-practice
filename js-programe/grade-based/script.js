@@ -15,5 +15,5 @@ else if(mark<35 && mark>=0){
     console.log("your grade is fail");
 }
 else{
-    console.log("your number unvalid");
+    console.log("your number is unvalid");
 }
