@@ -6,4 +6,4 @@ for(i=1;i<=n;i++);
 
 sum +=i;
 
-console.log("number is"  ,+ sum);
+console.log("the sum number is"  ,+ sum);
