@@ -8,4 +8,3 @@ for(i=1;i<=b;i++){
     c=(i*a);
     console.log(i,"*",a,"=",c);
 }
-
