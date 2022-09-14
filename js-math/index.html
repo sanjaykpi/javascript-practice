@@ -4,9 +4,205 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>js-bath</title>
+    <title>js-math</title>
+	<style>
+	   
+	</style>
 </head>
 <body>
-    <script src="script.js"></script>
+      <P id="demo"></p>
+    <script>
+	    
+		 
+		 //to take a number and check whether it is a buzz number or not a number is a bus number when it ends with 7 or divisible by 7
+		 
+		  //let a=parseInt(prompt("enter the a value"));
+		  
+		 // if(a%7==0 || a%10==7){
+		 //   console.log("this is buzz number");
+		 //}
+		 //else{
+		 //console.log("not a buzz number ");
+		 // }
+		    
+			
+		  
+		 //check whether a number is divisible with another number or not
+		 
+		 // let b=parseInt(prompt("enter the b value"));
+		  //let c=parseInt(prompt("enter the c value"));
+		  
+		 // if(b%c==0){
+		 //   console.log("b is divisible by c");
+		 // }
+		 // else{
+		 // console.log("not divisible by c");
+		 // }
+		  
+		  
+		  //you will take the age of user as input an fine whether he is child adult or senion basice of age
+		  
+		  //let age=parseInt(prompt("enter your age"));
+		  
+		  //if(age>25){
+		  //  console.log("you are senior");
+		 // }
+		 // else if(age>=19 && age<=25){
+		   // console.log("you are adult");
+		  //}
+		 // else{
+		  //  console.log("you are child");
+		 // }
+		  
+		  //in which we will add marks of three subject and calculate persentege and grade accoding to per 
+		  
+		  // let mark1=parseInt(prompt("enter your mark"));
+		  // let mark2=parseInt(prompt("enter your mark"));
+		  // let mark3=parseInt(prompt("enter your mark"));
+		  // let mark4=parseInt(prompt("enter your mark"));
+		   
+		   //let total=mark1+mark2+mark3+mark4;
+		  // console.log(total);
+		  // let avg=total/4;
+		  // console.log(avg);
+		   
+		 // if(avg>=80){
+		 //    console.log("good grade");
+		 //  }
+		 //  else if(avg>=35 && avg<80){
+		 //    console.log("pass grade");
+		 //  }
+		 //  else{
+		 //    console.log("fail grade");
+		 //  }
+		 
+		 //let a=parseInt(prompt("enter your a value"));
+		// let b=parseInt(prompt("enter your b value"));
+		// let o=prompt("enter your op"),c;
+		 
+		// switch(a,b,o){
+		//    case "+":
+		//	c=a+b;
+		//	console.log("your answer is " + c);
+		//  break;
+		//	case "-":
+		//	c=a-b;
+		//	console.log("your answer is " + c);
+		//	break;
+		//	case "*":
+		//	c=a*b;
+		//	console.log("your answer is " + c);
+		//	break;
+		//	case "/":
+		//	c=a/b;
+		//	console.log("your answer is " + c);
+		//	break;
+		//	default:
+		//	console.log("invalid");
+		 //}
+		   
+		  //let a=[35,2,7,96,55,19,30,60],em=0;
+		  //for(i=0;i<=a.length;i++){
+		  // if(a[i]>em){
+		  // em=a[i];
+		  //}
+		  //}
+		  // console.log("big number is "+em);
+		   
+		  // for(i=0;i<=a.length;i++){
+		   //  if(a[i]<em){
+			//   em=a[i]
+			// }
+		  // }
+		  // console.log("small number is " +em);
+		  
+		  //let a=parseInt(prompt("enter your mark"));
+		  
+		  //if(a>=90 && a<=100){
+		   //  console.log("your grade is O");
+		 // }
+		 // else if(a>=80 && a<90){
+		  //   console.log("your grade is A");
+		 // }
+		 // else if(a>=50 && a<80){
+		  //   console.log("your grade is b");
+		 // }
+		 // else if(a>=35 && a<50){
+		 //    console.log("your are pass");
+		 // }
+		 // else if(a<35 && a>=0){
+		 //    console.log("your are fail");
+		 // }
+		 // else{
+		 //     console.log("your mark not valid"); 
+		 // }
+	      
+		   
+		  // while loop
+		  
+		   //let i=0;
+		  // while(i<10){
+		   // i++;
+			// console.log(i);
+		  // }
+		   
+		   //do while loop
+		   
+
+
+         // let s = 0;
+         // let num = parseInt(prompt('Enter a number'));
+
+         //  do{
+         //    s += num;
+         //    num = parseInt(prompt('Enter a number'));
+         //   }
+		 //    while(num >= 0);
+         //    console.log(s);
+		
+			
+			//function name(s1,s2){
+			//   console.log(s1+s2);
+			//}
+			//name(10,20);
+			//name(5,10); 
+			
+			//write a js fun to cap the first letter of each word in a 
+			 
+			 
+			 //let d="rose is beautyful rose smile good";
+			 //let e=d.replace(/rose/g,"jose");
+			 //console.log(e);
+			 
+			 // uppercase
+			 
+			 let string = prompt('Enter a string: ');
+			 
+             function Letter(first) {
+
+             let s = first.charAt(0).toUpperCase() + first.slice(1);  
+
+             return s;
+            }
+
+             let result = Letter(string);
+
+              console.log(result);
+			  
+			  let a="rose is beautiful";
+			  
+			  let b=a.slice(2);
+			  
+			  console.log(b);
+			  
+			  let c="star";
+			  
+			  let d=c.padStart(10,"*");
+			  
+			  console.log(d);
+			 
+	 </script>
+	
+	
 </body>
-</html>
+</html>     

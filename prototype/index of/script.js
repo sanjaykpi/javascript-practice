@@ -6,4 +6,4 @@
 
 
  let number=[30,22,65,96,2,18];
- console.log(number.indexOf(96));
+ console.log(number[3]);

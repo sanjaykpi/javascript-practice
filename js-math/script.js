@@ -6,7 +6,7 @@ console.log("The round value is "+Math.round(4.4));
 console.log("The round value is "+Math.round(4.5));
 
 // Math.ceil() rounds a number next nearest integer
-console.log("The ceil() value is "+Math.ceil(4.1));
+console.log("The ceil() value is "+Math.ceil(-4.1));
 
 // Math.floor(x) returns the previous its nearest integer
 console.log("The floor() value is "+Math.floor(4.6));
@@ -24,7 +24,7 @@ console.log("If value is - then return "+Math.sign(-5));
 console.log("If value is 0 then return "+Math.sign(0));
 
 // Math.pow(x, y) returns the value of x to the power of y
-console.log("The power of value is "+Math.pow(5,3));
+console.log("The power of value is "+Math.pow(5,3)); 
 
 // Math.sqrt(x) returns the square root of x
 console.log("The square root value is "+Math.sqrt(64));
@@ -57,3 +57,5 @@ console.log("The log2 value is "+Math.log2(8));
 
 // Math.log10(x) returns the base 10 logarithm of x.
 console.log("The log10 value is "+Math.log10(1000));
+
+

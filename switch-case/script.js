@@ -12,6 +12,7 @@
 //   }
 
 // Sample program for switch case
+let day;
 switch (new Date().getDay()) {
     case 0:
       day = console.log("Sunday");
@@ -33,10 +34,16 @@ switch (new Date().getDay()) {
       break;
     case 6:
       day = console.log("Saturday");
+      break;
+      default:
+      day = console.log("none of the day");
   }
 
 //  default case executed
-switch (new Date().getDay()) {
+let d=new Date();
+let a=d.setMonth(5);
+let b=d.getMonth();
+switch (b) {
     case 6:
       text = console.log("Today is Saturday");
       break;
